@@ -39,3 +39,8 @@ console.log(a % b);
 // console.log(x + y);   Output will be 103
 // console.log(x - y);   Output will be 7
 // What do you think prints for x + y and x - y?
+
+// 7. What is the output of the following code?
+const num = 5;
+const result = num % 2 === 0 ? "Even" : "Odd";
+console.log(result);    //o/p will be odd
