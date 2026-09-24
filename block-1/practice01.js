@@ -16,3 +16,19 @@ console.log(typeof ramSize);
 // JavaScript
 // console.log(null == undefined);  o/p true
 // console.log(null === undefined); o/p false
+
+// 4.What will each of these lines print in the console?
+let a = 10;
+let b = 3;
+
+console.log(a + b);
+console.log(a * b);
+console.log(a % b);
+
+// 5.Let's test this:
+// let coins = 20;
+// coins += 10;
+// coins -= 5;
+// coins *= 2;
+// console.log(coins);
+// What final number will console.log(coins) print? /O/p will be 50
