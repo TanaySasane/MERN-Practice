@@ -32,3 +32,10 @@ console.log(a % b);
 // coins *= 2;
 // console.log(coins);
 // What final number will console.log(coins) print? /O/p will be 50
+
+// let x = "10";
+// let y = 3;
+
+// console.log(x + y);   Output will be 103
+// console.log(x - y);   Output will be 7
+// What do you think prints for x + y and x - y?
