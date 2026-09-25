@@ -143,3 +143,5 @@ switch (role) {
 // let cartCount = 0;
 // let display = cartCount ?? 10;
 // console.log(display); // prints 0 
+
+//Day02 completed lets do some practice
