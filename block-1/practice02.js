@@ -63,3 +63,37 @@ let enteredName = "";
 let defaultName = "Anonymous";
 console.log(enteredName || defaultName); // Anonymous
 console.log(enteredName ?? defaultName); // ""
+
+// Challenge 4: The Login Guard (Logical Operators & Short-Circuiting) 🔐
+// In real React and Node apps, we often guard views or API responses using combined conditions:
+// let isLoggedIn = true;
+// let userRole = "user"; // could be "admin", "editor", or "user"
+// let isEmailVerified = false;
+// Task:
+// Write an expression using if...else (or ternary) that allows access only if:
+// The user is logged in (isLoggedIn) AND
+// The user is either an "admin" OR has their email verified (isEmailVerified).
+// If allowed, print "Access Granted ✅". Otherwise, print "Access Denied 🚫".
+// How would you structure that condition?
+let isLoggedIn = true;
+let userRole = "user"; // could be "admin", "editor", or "user"
+let isEmailVerified = false;
+if(isLoggedIn && (userRole === "admin" || isEmailVerified)) {
+    console.log("Access Granted ✅");
+} else {    
+    console.log("Access Denied 🚫");
+}   
+
+// Challenge 5: Configuration Fallback Tracing ⚙️
+// What will each console.log print? Trace the output step by step:
+// let customPort = 0;
+// let defaultPort = 3000;
+
+// let portA = customPort || defaultPort;
+// let portB = customPort ?? defaultPort;
+
+// console.log(portA);
+// console.log(portB);
+// What numbers will portA and portB display?
+//port A will display 3000 because 0 is falsy and the || operator returns the first truthy value.
+//port B will display 0 because the ?? operator only checks for null or undefined, and 0 is neither.
